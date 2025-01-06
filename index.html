@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Custom Blockly</title>
+    <title>Blockly Test</title>
     <script src="node_modules/blockly/blockly.min.js"></script>
-    <link rel="stylesheet" href="styles.css">
     <style>
         html, body, #blocklyDiv {
             margin: 0;
@@ -15,6 +14,12 @@
     </style>
 </head>
 <body>
+    <xml id="toolbox" style="display: none">
+        <block type="controls_if"></block>
+        <block type="logic_compare"></block>
+        <block type="math_number"></block>
+        <block type="text"></block>
+    </xml>
     <div id="blocklyDiv"></div>
     <script src="app.js"></script>
 </body>
